@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/huashan/proprietary/bin/chargemon:system/bin/chargemon \
+    vendor/sony/huashan/proprietary/bin/charger:system/bin/charger \
+    vendor/sony/huashan/proprietary/bin/hijack.tar:system/bin/hijack.tar \
     vendor/sony/huashan/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/huashan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/huashan/proprietary/bin/fmconfig:system/bin/fmconfig \
@@ -36,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/huashan/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/huashan/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/huashan/proprietary/bin/wipedata:system/bin/wipedata \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
     vendor/sony/huashan/proprietary/etc/firmware/dsps.b02:system/etc/firmware/dsps.b02 \
